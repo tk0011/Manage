@@ -237,11 +237,12 @@
       <script src="./JS/aos.min.js"></script>
     <script>
       $(window).load(function(){
-        $(".loader").fadeOut(1250);
+        $(".loader").fadeOut(800);
+            AOS.init();
          }) 
           
           $(document).ready(function(){
-            AOS.init();
+          
   
           $(window).scroll(function(){
             var y = $(this).scrollTop();
